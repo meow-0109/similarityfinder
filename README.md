@@ -99,8 +99,7 @@ Execution Time: 154154.88 ms
 ```
 
 
-Output Screenshot:
-screenshots/results.png
-
+### Output Screenshot
+![Output Screenshot](Screenshots/results.png)
 
 
