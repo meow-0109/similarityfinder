@@ -34,7 +34,7 @@ This project is implemented using local libraries only and does not rely on any 
 ---
 
 ## Project Structure
-
+```
 similarityfinder/
 ├── main.py
 ├── data/
@@ -47,7 +47,7 @@ similarityfinder/
 ├── README.md
 └── .gitignore
 
-
+```
 
 ---
 
