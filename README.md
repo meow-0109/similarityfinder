@@ -53,55 +53,54 @@ similarityfinder/
 
 ## Setup Instructions
 
-1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/message-similarity.git
-cd message-similarity
 
-2.Create virtual environment
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+###1.Clone the repository
+```bash 
+git clone https://github.com/meow-0109/similarityfinder.git
+cd similarityfinder
+```
 
-3.Install dependencies
-pip install -r requirements.txt
+###2. Create virtual environment
+```python -m venv venv```
+
+###3.Install dependencies
+```pip install -r requirements.txt```
 
  How to run
-main.py Enter your MEssage:
+```main.py Enter your MEssage:```
 
 Results
 Example 1
 
 Input:
-Enter your Message: How do i reset Password?
+```Enter your Message: How do i reset Password?```
 
 Output:
-Top 3 Similar Messages: 
+```Top 3 Similar Messages: 
 1. [Similarity: 94.56%] How do I reset my password?
 2. [Similarity: 14.65%] Hello, how are you?
-3. [Similarity: 13.05%] How can I contact customer support? 
+3. [Similarity: 13.05%] How can I contact customer support?
 
 Execution Time: 26554.14 ms
-
+```
 Example 2
 
 Input 
-Enter your Message: (Empty)
+```Enter your Message: (Empty)```
 
 Output:
 
-Top 3 Similar Messages:
+```Top 3 Similar Messages:
 1. [Similarity: 0.00%] Hello, how are you?
 2. [Similarity: 0.00%] Good morning, can you help me? 
 3. [Similarity: 0.00%] Hi there!      
 
 Execution Time: 154154.88 ms
+```
 
 
-### Step 3: Add to README (under Results section)
+Output Screenshot:
+screenshots/results.png
 
-```md
-### Screenshot of Output
-
-![Message Similarity Output](screenshots/results.png)
 
 
